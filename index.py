@@ -27,7 +27,7 @@ def extract_text(image_path):
     return text
 
 if __name__ == "__main__":
-    image_path = "C:\\Users\\fmontes\\Documents\\bot_ordenes\\397036_0.jpg"  # Reemplazar con la ruta real de la imagen
+    image_path = "C:\\Users\\fmontes\\Documents\\bot_ordenes\\336210_0.jpg"  # Reemplazar con la ruta real de la imagen
     extracted_text = extract_text(image_path)
     print("Texto extraído:")
     print(extracted_text)
